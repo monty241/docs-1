@@ -27,7 +27,7 @@ InPath              Directory containing the input assemblies, such as ``c:\\in`
 OutPath             Directory to contain the obfuscated assemblies, such as ``c:\\out``.
 LogFile             Obfuscation log file path (mapping.txt).
 XmlMapping          Whether the log file should be of XML format.
-KeyFile             Key file path, such as ``c:\folder\key.pfx``.
+KeyFile             Path to a PFX file without password, such as ``c:\folder\key.pfx``.
 KeyContainer        Key container name.
 RegenerateDebugInfo Whether to generate debug symbols for obfuscated assemblies.
 MarkedOnly          Whether to only obfuscate marked items. All items are obfuscated when set to ``false``.
