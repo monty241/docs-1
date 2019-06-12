@@ -406,8 +406,9 @@ If the project uses a .pfx file to sign the assembly, by default Visual Studio
 would create a key container in Windows, whose name can be found from MSBuild
 diagnostic logging.
 
-.. note:: Once MSBuild diagnostic logging is enabled via ``/v:diag`` switch,
-   the key container name can be found by searching for
+.. note:: Once MSBuild diagnostic logging is enabled via ``/v:diag`` switch or using the
+Visual Studio menu 'Tools', 'Options', group 'Projects and Solutions' and then 'Build and Run',
+the key container name can be found by searching for
    ``KeyContainerName=VS_KEY_XXXXXX`` in the output.
 
 The key container name can then be used in Obfuscar configuration,
