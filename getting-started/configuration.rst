@@ -422,7 +422,7 @@ If neither KeyFile nor KeyContainer is specified, Obfuscar normally throws an
 exception on signed assemblies. If an assembly is marked delay signed, the
 signing step will be skipped in case no key file is given.
 
-.. note:: With the special key file name auto, Obfuscar uses the value of the
+.. note:: With the special key file name 'auto', Obfuscar uses the value of the
    AssemblyKeyFileAttribute instead (if existing).
 
 Configuration Fragments (2.2.5+)
